@@ -1,0 +1,96 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Giữ cố định chiều cao bằng 100% màn hình */
+    background: url('https://cdnb.artstation.com/p/assets/images/images/041/601/775/original/ida-franzen-karlsson-background-animation.gif?1632167232') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    font-family: Arial, sans-serif;
+    overflow: hidden; /* Ẩn luôn thanh cuộn */
+}
+
+img {
+    width: 600px;
+    height: 700px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.controls {
+    margin-top: 20px;
+}
+.btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+}
+.btn img {
+    width: 40px;
+    height: 40px;
+}
+input[type='range'] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100px;
+    height: 10px;
+    background: yellow;
+    border-radius: 5px;
+    outline: none;
+}
+
+/* Thay đổi icon của nút kéo trên Chrome & Safari */
+input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 40px;
+    height: 40px;
+    background: url('https://png.pngtree.com/png-clipart/20230419/original/pngtree-cute-head-duck-doodle-sticker-png-image_9068657.png') no-repeat center;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+
+/* Thay đổi icon của nút kéo trên Firefox */
+input[type='range']::-moz-range-thumb {
+    width: 40px;
+    height: 40px;
+    background: url('https://png.pngtree.com/png-clipart/20230419/original/pngtree-cute-head-duck-doodle-sticker-png-image_9068657.png') no-repeat center;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+.song-title {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+    color: yellow; /* Bạn có thể đổi màu theo ý thích */
+}
+.corner-gif {
+    position: fixed;
+    width: 100px; /* Điều chỉnh kích thước nếu cần */
+    height: 100px;
+    pointer-events: none; /* Để không ảnh hưởng đến thao tác trên web */
+}
+
+.corner-top-left {
+    top: 0;
+    left: 0;
+}
+
+.corner-top-right {
+    top: 0;
+    right: 0;
+}
+
+.corner-bottom-left {
+    bottom: 0;
+    left: 0;
+}
+
+.corner-bottom-right {
+    bottom: 0;
+    right: 0;
+}
