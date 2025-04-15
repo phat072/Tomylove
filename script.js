@@ -9,6 +9,7 @@ const songs = [
         { image: 'image/1.jpg', song: 'music/You-are-the-reason.mp3', title: 'You Inspire Me Every Day' },
         { image: 'image/2.jpg', song: 'music/Always-Remember-Us-This-Way.mp3', title: 'Always Remember Us' },
         { image: 'image/3.jpg', song: 'music/All-of-Me.mp3', title: 'Every Part of Me Loves Every Part of You' }
+    // { image: 'image/3.jpg', song: 'music/All-of-Me.mp3', title: 'Every Part of Me Loves Every Part of You' }
     // { image: 'image/11.jpg', song: 'music/Shape-Of-You.mp3', title: 'The club isn\'t the best place to find a lover' },
     // { image: 'image/12.jpg', song: 'music/See-You-Again.mp3', title: 'It\'s been a long day without you, my friend' },
     // { image: 'image/13.jpg', song: 'music/Someone-You-Loved.mp3', title: 'Now the day bleeds into nightfall' },
