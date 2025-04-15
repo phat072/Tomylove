@@ -3,12 +3,12 @@ const songs = [
         { image: 'image/2.jpg', song: 'music/Perfect.mp3', title: 'Together, We Flourish', startTime: 5 },
         { image: 'image/3.jpg', song: 'music/Fine-TaeYeon.mp3', title: 'I Always Want You to Shine' },
         { image: 'image/4.jpg', song: 'music/Never Say Never.mp3', title: 'Never Say Never', startTime: 5 },
-        { image: 'image/5.jpg', song: 'music/What Do You Mean.mp3', title: 'What Do You Mean?', startTime: 40 },
-        { image: 'image/6.jpg', song: 'music/Baby.mp3', title: 'Baby' },
-        { image: 'image/7.jpg', song: 'music/Love Yourself.mp3', title: 'Love Yourself', startTime: 10 },
-        { image: 'image/8.jpg', song: 'music/You-are-the-reason.mp3', title: 'You Inspire Me Every Day' },
-        { image: 'image/9.jpg', song: 'music/Always-Remember-Us-This-Way.mp3', title: 'Always Remember Us' },
-        { image: 'image/10.jpg', song: 'music/All-of-Me.mp3', title: 'Every Part of Me Loves Every Part of You' }
+        { image: 'image/4.jpg', song: 'music/What Do You Mean.mp3', title: 'What Do You Mean?', startTime: 40 },
+        { image: 'image/3.jpg', song: 'music/Baby.mp3', title: 'Baby' },
+        { image: 'image/2.jpg', song: 'music/Love Yourself.mp3', title: 'Love Yourself', startTime: 10 },
+        { image: 'image/1.jpg', song: 'music/You-are-the-reason.mp3', title: 'You Inspire Me Every Day' },
+        { image: 'image/2.jpg', song: 'music/Always-Remember-Us-This-Way.mp3', title: 'Always Remember Us' },
+        { image: 'image/3.jpg', song: 'music/All-of-Me.mp3', title: 'Every Part of Me Loves Every Part of You' }
     // { image: 'image/11.jpg', song: 'music/Shape-Of-You.mp3', title: 'The club isn\'t the best place to find a lover' },
     // { image: 'image/12.jpg', song: 'music/See-You-Again.mp3', title: 'It\'s been a long day without you, my friend' },
     // { image: 'image/13.jpg', song: 'music/Someone-You-Loved.mp3', title: 'Now the day bleeds into nightfall' },
